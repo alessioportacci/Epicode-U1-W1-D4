@@ -67,6 +67,10 @@ header {
     padding-top: 30px;
   }
 
+header h3{
+  margin-top:2em
+}
+
   header li {
     text-align: center;
     display: block;
