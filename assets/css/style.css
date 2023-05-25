@@ -74,11 +74,11 @@ header {
   }
 
   header li::before {
-    content: "➡️";
+    content: "⇒ ";
   }
 
   header li::after {
-    content: "⬅️";
+    content: " ⇐";
   }
 
   header li:last-child {
