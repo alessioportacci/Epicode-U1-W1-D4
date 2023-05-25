@@ -1,0 +1,212 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    background-image: url(../img/sfondo.png);
+    background-position: 1px;
+    font-family:poppins;
+    font-size: 18px;
+    line-height: 25px;
+
+  }  
+
+  h1{
+    font-weight: bold;
+    display: block;
+    font-size: 2em;
+    padding: 0.8em 0em;
+    line-height:normal;
+  }
+
+  h2 {
+    font-weight: bold;
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1em 0em;
+  }
+  
+  h3 {
+    font-weight: bold;
+    display: block;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 1.1em;
+  }
+
+  a:link{
+    color:#009bc7
+
+  }
+
+  iframe{
+    border-radius: 30px;
+  }
+
+  p{
+    margin-bottom:20px
+  }
+
+  p > span
+  {
+    color:#aa2072
+  }
+
+/* HEADER */
+
+header {
+    background: linear-gradient(#2da0ce, #006688);
+    color: white;
+  }
+
+  header > img {
+    height: 80px;
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+  }
+
+  header li {
+    text-align: center;
+    display: block;
+    margin: 8px;
+  }
+
+  header li::before {
+    content: "➡️";
+  }
+
+  header li::after {
+    content: "⬅️";
+  }
+
+  header li:last-child {
+    padding-bottom: 40px;
+  }
+/* MAIN */
+
+  main{
+    background: white;
+    padding: 15px;
+  }
+
+  main li > span
+  {
+    background-color: #e0e1e2;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin:2px
+  }
+
+  main li
+  {
+    margin-left: 1em;
+    padding:5px;
+  }
+
+  main li:last-child{
+    margin-bottom: 20px;
+  }
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+  caption{
+    font-weight: bold;
+    font-style: italic;
+  }
+
+    td, th{
+        padding: 15px;
+    }
+
+  thead > tr
+  {
+    color: white;
+    background-color: #4667bc;
+  }
+
+  tbody tr:nth-child(odd)
+  {
+    background-color: #f3f3f3;
+  }
+
+  table{
+    width: 100%;
+    border-bottom: 2px;
+    border-style: solid;
+    margin-bottom: 2em;
+    border-color: #4667bc
+  }
+
+/* FORM */
+
+input
+{
+  border-bottom: 2px dotted black;
+  padding:5px;
+}
+
+button
+{
+  background-color: #3366cc;
+  color: white;
+  padding:2px;
+  font-size:15px
+}
+
+
+/* FOOTER */
+
+footer{
+    background: linear-gradient(#4c859a
+    , #0a5069);
+    color:white;
+    text-align: center;
+    padding:15px;
+    font-size: 15px;
+}
+
+footer #email{
+    color:#f802fe;
+    font-weight: bold;
+}
+
+/*ID E CLASSI*/
+
+  .mini-box {
+    margin: auto;
+    box-shadow: -1px 3px 8px -3px #000000;
+    display: block;
+    margin: 20px;
+  }
+
+  #author-date{
+    color:#a8a09a;
+    margin-bottom: 25px
+  }
+
+  .graybox{
+    background: #e4e8e7;
+    padding-bottom: 3.5px;
+    margin-bottom: 1em;
+    padding-left: 15px;
+    padding-top:15px
+  }
+
+  #correlati .graybox{
+    border: 1px solid gray
+  }
+
+  #input{
+    margin:1em
+  }
+
+  .date{
+     font-size: 15px;
+     display: block;
+     text-align: right;
+     margin-right: 20px;
+  }
